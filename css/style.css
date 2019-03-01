@@ -1,3 +1,35 @@
+/* 
+@media (min-width:1000px) {
+    body {
+        background-color: red; 
+    }
+}  */
+
+.hero1 {
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+    height: 500px;   
+}
+
+.heightHero {
+    height: inherit;
+}
+
+.hero2 {
+    position: relative;
+    bottom: 500px;
+    z-index: 10;
+}
+
+.imgResizeBig {
+    width: 500px;
+    height: 700px;
+}
+
+.imgResizeSmall {
+    width: 500px;
+    height: 400px;
+    align-self: flex-end;
+}
 body {
     font-family: 'Montserrat', sans-serif;
   }
@@ -19,10 +51,28 @@ body {
 .black {
     color: black;
 }
-<<<<<<< HEAD
 
 .bg-image {
     background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+}
+.circle {
+    position: absolute;
+    top: -100px;
+    height: 400px;
+    width: 400px;
+    background-color: #ED537D;
+    border-radius: 50%;
+    z-index: -1;
+    overflow: hidden;
+}
+.pic-1 {
+    position: relative;
+}
+.pic-2 {
+    position: relative;
+    top: 270px;
+    max-width: 100%;
+    z-index: 2;
 }
 
 #handshake { 
@@ -30,11 +80,4 @@ body {
     height: 100px;
 }
 
-/* 
-@media (min-width:1000px) {
-    body {
-        background-color: red; 
-    }
-}  */
-=======
->>>>>>> b11877211bc9018659d46df17a8610cd0b9b5dbf
+
