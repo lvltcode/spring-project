@@ -4,10 +4,9 @@
         background-color: red; 
     }
 }  */
-
 .hero1 {
     background-image: linear-gradient(45deg, #00a4bd, #00bda5);
-    height: 500px;   
+    height: 400px;   
 }
 
 .heightHero {
@@ -16,19 +15,24 @@
 
 .hero2 {
     position: relative;
-    bottom: 500px;
+    bottom: 200px;
     z-index: 10;
 }
 
 .imgResizeBig {
-    width: 500px;
-    height: 700px;
+    width: 600px;
 }
 
 .imgResizeSmall {
-    width: 500px;
-    height: 400px;
+    width: 350px;
+    /* height: 400px; */
     align-self: flex-end;
+}
+.row-green {
+    position: relative;
+    bottom: 500px;
+    background-color: #5DE5D6;
+    height: 150px;
 }
 body {
     font-family: 'Montserrat', sans-serif;
