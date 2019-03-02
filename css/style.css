@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -108,6 +109,58 @@ li.listicon {
     font-weight: 700pt;   
  }
  .orange {
+=======
+/* 
+@media (min-width:1000px) {
+    body {
+        background-color: red; 
+    }
+}  */
+.hero1 {
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+    height: 400px;   
+}
+
+.heightHero {
+    height: inherit;
+}
+
+.hero2 {
+    position: relative;
+    bottom: 200px;
+    z-index: 10;
+}
+
+.imgResizeBig {
+    width: 600px;
+}
+
+.imgResizeSmall {
+    width: 350px;
+    /* height: 400px; */
+    align-self: flex-end;
+}
+.row-green {
+    position: relative;
+    bottom: 500px;
+    background-color: #5DE5D6;
+    height: 150px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  footer ul li a {
+    color: #cbd6e2;
+  }
+
+  footer ul li a:hover {
+    color: #7BCAD8;
+    text-decoration: none;
+  }
+
+.orange {
+>>>>>>> 6819af7035f8d6913fe52f6e73a88c97b24ffb6f
     background-color: #ff7a59;
     border-style: none;
  }
@@ -125,4 +178,82 @@ li.listicon {
     box-sizing: border-box; 
      box-shadow: 0 10px 60px 0 rgba(0, 0, 0, 0.5);
 
+<<<<<<< HEAD
 }
+=======
+.black {
+    color: black;
+}
+
+.bg-image {
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+}
+.circle {
+    position: absolute;
+    top: -100px;
+    height: 400px;
+    width: 400px;
+    background-color: #ED537D;
+    border-radius: 50%;
+    z-index: -1;
+    overflow: hidden;
+}
+.pic-1 {
+    position: relative;
+}
+.pic-2 {
+    position: relative;
+    top: 270px;
+    max-width: 100%;
+    z-index: 2;
+}
+
+#handshake { 
+    width: 120px;
+    height: 100px;
+}
+
+#features-header::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    margin-left: 10px;
+    border-bottom: 1px solid #e0e6ed;
+    top: 14px;
+    width: 100%;
+
+}
+
+.wrapper1{ 
+    max-width: 800px;
+    margin: auto center;
+ }
+.wrapper2{ background-color: #FFFFFF;
+    width: 960px;
+    height: 284px;
+    border: #F5F8FA solid ;}
+
+.no_listicon {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listicon {
+    background: url('img/checkmark.svg') no-repeat left top;
+    padding-left: 40px;
+    padding-top: 10px; 
+    height: 21px;
+    width: auto;
+}
+
+.listicon {
+    background: url('img/checkmark.svg') no-repeat left top;
+    padding-left: 40px;
+    margin-bottom: 10px; 
+    height: 21px;
+    width: auto;
+}
+
+
+>>>>>>> 6819af7035f8d6913fe52f6e73a88c97b24ffb6f
