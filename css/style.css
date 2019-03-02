@@ -8,9 +8,55 @@
     height: 100px;
 }
 
+<<<<<<< HEAD
 /* 
 @media (min-width:1000px) {
     body {
         background-color: red; 
     }
 }  */ 
+=======
+#features-header::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    margin-left: 10px;
+    border-bottom: 1px solid #e0e6ed;
+    top: 14px;
+    width: 100%;
+
+}
+
+.wrapper1{ 
+    max-width: 800px;
+    margin: auto center;
+ }
+.wrapper2{ background-color: #FFFFFF;
+    width: 960px;
+    height: 284px;
+    border: #F5F8FA solid ;}
+
+.no_listicon {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listicon {
+    background: url('img/checkmark.svg') no-repeat left top;
+    padding-left: 40px;
+    padding-top: 10px; 
+    height: 21px;
+    width: auto;
+}
+
+.listicon {
+    background: url('img/checkmark.svg') no-repeat left top;
+    padding-left: 40px;
+    margin-bottom: 10px; 
+    height: 21px;
+    width: auto;
+}
+
+
+>>>>>>> 5fad4ac200f4924a04cc2388e7f3d27a36287039
