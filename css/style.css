@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
 
-#features-header::after 
+#features-header1::after 
 {
     content: '';
     position: absolute;
@@ -43,7 +42,7 @@ transition: box-shadow 500ms;
 }
 .wrapper3{
     width: 992px;
-    height: 400px;
+    height: auto;
 justify-content: center;
 }
 .wrapperstyle
@@ -108,8 +107,7 @@ li.listicon {
     line-height: 1.3125;
     font-weight: 700pt;   
  }
- .orange {
-=======
+ /*.orange {
 /* 
 @media (min-width:1000px) {
     body {
@@ -144,11 +142,9 @@ li.listicon {
     position: relative;
     bottom: 500px;
     background-color: #5DE5D6;
-    height: 150px;
+    height: 200px;
 }
-body {
-    font-family: 'Montserrat', sans-serif;
-  }
+
 
   footer ul li a {
     color: #cbd6e2;
@@ -160,7 +156,6 @@ body {
   }
 
 .orange {
->>>>>>> 6819af7035f8d6913fe52f6e73a88c97b24ffb6f
     background-color: #ff7a59;
     border-style: none;
  }
@@ -178,9 +173,7 @@ body {
     box-sizing: border-box; 
      box-shadow: 0 10px 60px 0 rgba(0, 0, 0, 0.5);
 
-<<<<<<< HEAD
 }
-=======
 .black {
     color: black;
 }
@@ -224,36 +217,11 @@ body {
 
 }
 
-.wrapper1{ 
-    max-width: 800px;
-    margin: auto center;
+.wrap1{
+    height: 500px; 
+    width: 100%; 
  }
-.wrapper2{ background-color: #FFFFFF;
-    width: 960px;
-    height: 284px;
-    border: #F5F8FA solid ;}
-
-.no_listicon {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.listicon {
-    background: url('img/checkmark.svg') no-repeat left top;
-    padding-left: 40px;
-    padding-top: 10px; 
-    height: 21px;
-    width: auto;
-}
-
-.listicon {
-    background: url('img/checkmark.svg') no-repeat left top;
-    padding-left: 40px;
-    margin-bottom: 10px; 
-    height: 21px;
-    width: auto;
-}
 
 
->>>>>>> 6819af7035f8d6913fe52f6e73a88c97b24ffb6f
+
+
