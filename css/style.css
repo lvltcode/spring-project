@@ -125,7 +125,7 @@ li.listicon {
 
 .hero2 {
     position: relative;
-    bottom: 200px;
+    bottom: 300px;
     z-index: 10;
 }
 
@@ -142,7 +142,7 @@ li.listicon {
     position: relative;
     bottom: 500px;
     background-color: #5DE5D6;
-    height: 200px;
+    height: 170px;
 }
 
 
@@ -221,7 +221,3 @@ li.listicon {
     height: 500px; 
     width: 100%; 
  }
-
-
-
-
