@@ -61,14 +61,14 @@ justify-content: center;
     }
 
 .listiconh {
-        background: url('checkmark.svg') no-repeat left top;
+        background: url('https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg') no-repeat left top;
         padding-left: 30px;
         padding-top: 10px; 
         height: 21px;
         width: auto;
         }
 li.listicon {
-    background: url('checkmark.svg') no-repeat left top;
+    background: url('https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg') no-repeat left top;
     padding-left: 40px;
     margin-bottom: 10px; 
     height: 21px;
